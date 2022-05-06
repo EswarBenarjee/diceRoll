@@ -1,0 +1,15 @@
+body {
+    margin: 10vh 2vw;
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+}
+
+.main {
+    margin: 5vh auto;
+}
