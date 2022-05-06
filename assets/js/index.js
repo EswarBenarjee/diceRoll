@@ -26,3 +26,8 @@ function replace() {
     var diceImg = document.getElementById("dicePic");
     diceImg.setAttribute("src", src);
 }
+
+
+party.confetti(runButton, {
+    count: party.variation.range(20, 40)
+});
