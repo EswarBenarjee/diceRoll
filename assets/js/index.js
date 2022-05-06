@@ -1,5 +1,18 @@
 function roll() {
-    for(var x=0; x<10; x++) 
+    var audio = new Audio("assets/audio/dice.wav");
+    audio.play();
+
+    setTimeout(function(){
+        var audio = new Audio("assets/audio/dice.wav");
+        audio.play();
+    }, 300);
+
+    setTimeout(function(){
+        var audio = new Audio("assets/audio/dice.wav");
+        audio.play();
+    }, 600);
+
+    for(var x=0; x<10; x++)
         window.setTimeout(replace, 100 * x);
 }
 
